@@ -1,0 +1,23 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "google",
+        "prettier"
+    ],
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "no-unused-vars": "off",
+        "indent": ["error", 4],
+        "max-len": ["error", { "code": 120 }]
+    },
+    "globals": {
+        "downloadExcel": "readonly"
+    }
+}
